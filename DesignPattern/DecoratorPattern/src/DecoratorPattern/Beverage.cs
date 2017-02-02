@@ -6,15 +6,11 @@
     using System.Threading.Tasks;
 
     //this is component
-    public abstract class Beverage
+   public interface  Beverage
     {
-        public abstract string Description { get; set; }
-       
-        public string GetDescription()
-        {
-            return Description;
-        }
-        public abstract double Cost();
+
+          string GetDescription();
+           double Cost();
         
     }
 }

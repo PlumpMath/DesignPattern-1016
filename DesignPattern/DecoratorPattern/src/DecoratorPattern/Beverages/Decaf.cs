@@ -8,13 +8,11 @@
     //concreate component
     public class Decaf : Beverage
     {
-        public override string Description { get; set; }
-
-        public Decaf()
+        public  string GetDescription()
         {
-            Description = "Decaf coffee";
+            return "decaf  Coffee";
         }
-        public override double Cost()
+        public  double Cost()
         {
             return 1.05;
         }

@@ -11,11 +11,11 @@
             Beverage beverage = new Espresso();
             Console.WriteLine(beverage.GetDescription() + " $ " + beverage.Cost());
 
-            Beverage b2 = new DarkRoast();
-            b2 = new Mocha(b2);
-            b2 = new Mocha(b2);
-            b2 = new Whip(b2);
-            Console.WriteLine(b2.GetDescription() + " $ " + b2.Cost());
+            Beverage c1 = new DarkRoast();
+             c1 = new Mocha(c1);
+            c1 = new Mocha(c1);
+            c1 = new Whip(c1);
+            Console.WriteLine(c1.GetDescription() + " $ " + c1.Cost());
 
             Beverage b3 = new HouseBlend();
             b3 = new Soy(b3);

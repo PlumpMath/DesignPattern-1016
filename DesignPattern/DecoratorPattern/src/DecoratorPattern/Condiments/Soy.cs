@@ -8,22 +8,18 @@
     //concrete decorator
     public class Soy : CondimentDecorator
     {
-       public Beverage beverage;
-        public override string Description { get; set; }
-       
-        public Soy(Beverage beverage)
+        public Soy(Beverage beverage):base(beverage)
         {
-            this.beverage = beverage;
-            this.Description = this.beverage.GetDescription() + ", Soy";
+        
         }
         public override double Cost()
         {
-            return this.beverage.Cost() + 0.15;
+            return base._beverage.Cost() + 0.15;
         }
 
         public override string GetDescription()
         {
-            return this.beverage.GetDescription() + " ,Soy";
+            return base._beverage.GetDescription() + " ,Soy";
         }
     }
 }

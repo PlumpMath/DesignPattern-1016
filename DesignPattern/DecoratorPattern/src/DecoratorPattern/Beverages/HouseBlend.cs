@@ -8,13 +8,11 @@
     //concreate component
     public class HouseBlend : Beverage
     {
-        public override string Description { get; set; }
-
-        public HouseBlend()
+        public  string GetDescription()
         {
-            Description = "this is house blend";
+            return "House Blend Coffee";
         }
-        public override double Cost()
+        public  double Cost()
         {
             return 0.89;
         }

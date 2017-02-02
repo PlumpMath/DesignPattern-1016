@@ -1,5 +1,5 @@
---temp-output:c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\obj\Debug\netcoreapp1.0\
---out:c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\bin\Debug\netcoreapp1.0\DecoratorPattern.dll
+--temp-output:D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\obj\Debug\netcoreapp1.0\
+--out:D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\bin\Debug\netcoreapp1.0\DecoratorPattern.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -86,15 +86,15 @@
 --reference:C:\Users\Praveen Shankar\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Praveen Shankar\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Praveen Shankar\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\Beverage.cs
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\CondimentDecorator.cs
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\Program.cs
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\Beverages\DarkRoast.cs
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\Beverages\Decaf.cs
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\Beverages\Espresso.cs
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\Beverages\HouseBlend.cs
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\Condiments\Mocha.cs
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\Condiments\Soy.cs
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\Condiments\SteamedMilk.cs
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\Condiments\Whip.cs
-c:\users\praveen shankar\documents\visual studio 2015\Projects\DecoratorPattern\src\DecoratorPattern\Properties\AssemblyInfo.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\Beverage.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\CondimentDecorator.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\Program.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\Beverages\DarkRoast.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\Beverages\Decaf.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\Beverages\Espresso.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\Beverages\HouseBlend.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\Condiments\Mocha.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\Condiments\Soy.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\Condiments\SteamedMilk.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\Condiments\Whip.cs
+D:\git\DesignPattern\DecoratorPattern\src\DecoratorPattern\Properties\AssemblyInfo.cs

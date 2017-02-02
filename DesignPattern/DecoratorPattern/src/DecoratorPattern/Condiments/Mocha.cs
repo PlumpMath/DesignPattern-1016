@@ -11,22 +11,17 @@ namespace DecoratorPattern.Condiments
     {
         //this is composition 
         //an instance variable to hold the beverage we are wrapping 
-       public Beverage beverage;
-        public override string Description { get; set; }
-
-        public Mocha(Beverage beverage)
+       public Mocha(Beverage beverage):base(beverage)
         {
-            this.beverage = beverage;
-            this.Description = this.beverage.GetDescription()+ ", Mocha";
         }
         public override double Cost()
         {
-            return this.beverage.Cost() + 0.20;
+            return base._beverage.Cost() + 0.20;
         }
 
         public override string GetDescription()
         {
-            return this.beverage.GetDescription() + Description;
+            return base._beverage.GetDescription() + ", Mocha";
         }
     }
 }

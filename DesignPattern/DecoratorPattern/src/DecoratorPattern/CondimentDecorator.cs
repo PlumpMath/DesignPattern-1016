@@ -8,6 +8,22 @@
     //this is decorator
     public abstract class CondimentDecorator : Beverage
     {
-        public abstract string GetDescription();
-    }
+
+        protected Beverage _beverage;
+        public CondimentDecorator(Beverage b)
+        {
+            _beverage = b;
+        }
+
+        public virtual string GetDescription()
+        {
+            return this._beverage.GetDescription();
+        }
+
+        public virtual double Cost()
+        {
+            return this._beverage.Cost();
+        }
+
+        }
 }

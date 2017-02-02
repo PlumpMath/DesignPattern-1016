@@ -8,14 +8,15 @@
     //concreate component
     public class DarkRoast : Beverage
     {
-        public override string Description { get; set; }
-        public DarkRoast()
-        {
-            Description = "Dark Roast coffee";
-        }
-        public override double Cost()
+    
+        public  double Cost()
         {
             return .99;
+        }
+
+        public  string GetDescription()
+        {
+            return "Dark Roast Coffee";
         }
     }
 }

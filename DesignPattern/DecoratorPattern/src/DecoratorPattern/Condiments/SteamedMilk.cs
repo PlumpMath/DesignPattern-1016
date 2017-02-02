@@ -8,26 +8,17 @@
     //concrete decorator
     public class SteamedMilk : CondimentDecorator
     {
-        Beverage beverage;
-        public SteamedMilk(Beverage beverage)
+        public SteamedMilk(Beverage beverage):base(beverage)
         {
-            beverage = beverage;
-            this.Description = this.beverage.GetDescription() + ", Steamed Milk";
         }
-
-        public override string Description { get; set; }
-        
-          
-
         public override double Cost()
         {
-            return this.beverage.Cost() + 0.10;
-
-        }
+            return base._beverage.Cost() + 0.10;
+}
 
         public override string GetDescription()
         {
-            return this.beverage.GetDescription() + " ,Steamed Milk";
+            return base._beverage.GetDescription() + " ,Steamed Milk";
         }
     }
 }
