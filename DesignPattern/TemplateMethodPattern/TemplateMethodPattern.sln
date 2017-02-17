@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5E50AC3-9BE4-498B-BCF8-92323AC4E6BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDC65C60-1F25-4DE0-B114-CBEA67AC8A41}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TemplateMethodPattern", "src\TemplateMethodPattern\TemplateMethodPattern.xproj", "{AEB9F7A5-FBDC-4FF3-BA12-706F149910F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB9F7A5-FBDC-4FF3-BA12-706F149910F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB9F7A5-FBDC-4FF3-BA12-706F149910F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB9F7A5-FBDC-4FF3-BA12-706F149910F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB9F7A5-FBDC-4FF3-BA12-706F149910F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEB9F7A5-FBDC-4FF3-BA12-706F149910F1} = {C5E50AC3-9BE4-498B-BCF8-92323AC4E6BF}
+	EndGlobalSection
+EndGlobal
