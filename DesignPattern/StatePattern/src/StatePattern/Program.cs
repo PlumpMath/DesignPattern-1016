@@ -9,7 +9,7 @@ namespace StatePattern
     {
         public static void Main(string[] args)
         {
-            GumballMachine gumballMachine = new GumballMachine(5);
+            GumballMachine gumballMachine = new GumballMachine("Bangalore",5);
             Console.WriteLine(gumballMachine.State.GetType().Name);
             gumballMachine.InsertQuarter();
             gumballMachine.TurnCrank();

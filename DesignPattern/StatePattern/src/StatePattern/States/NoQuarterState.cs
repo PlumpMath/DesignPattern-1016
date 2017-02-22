@@ -26,7 +26,7 @@
         public void InsertQuarter()
         {
             Console.WriteLine("You inserted a quarter");
-            _gumballMachine.SetState(_gumballMachine.HasQuarterState);
+            _gumballMachine.State=_gumballMachine.HasQuarterState;
         }
 
         public void TurnCrank()

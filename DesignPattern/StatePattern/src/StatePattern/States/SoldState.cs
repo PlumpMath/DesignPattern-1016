@@ -19,11 +19,11 @@
             _gumballMachine.ReleaseBall();
             if(_gumballMachine.Count>0)
             {
-                _gumballMachine.SetState(_gumballMachine.NoQuarterState);
+                _gumballMachine.State=_gumballMachine.NoQuarterState;
             }
             else
             {
-                _gumballMachine.SetState(_gumballMachine.SoldState);
+                _gumballMachine.State=_gumballMachine.SoldState;
             }
           
         }

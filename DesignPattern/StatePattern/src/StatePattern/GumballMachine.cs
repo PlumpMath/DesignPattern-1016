@@ -9,11 +9,11 @@
     public class GumballMachine
     {
 
-        public State NoQuarterState { get; set; }
-        public State HasQuarterState { get; set; }
-        public State SoldOutState { get; set; }
-        public State SoldState { get; set; }
-        public State WinnerState { get; set; }
+        public State NoQuarterState { get; private set; }
+        public State HasQuarterState { get; private set; }
+        public State SoldOutState { get; private set; }
+        public State SoldState { get;private set; }
+        public State WinnerState { get;private set; }
 
         public State State { get; set; }
 
@@ -21,10 +21,11 @@
         
         public String Location { get; set; }
 
-        public GumballMachine(int count)
+        public GumballMachine(string location,int count)
         {
             State = SoldOutState;
             Count = count;
+            Location = location;
             NoQuarterState = new NoQuarterState(this);
             HasQuarterState = new HasQuarterState(this);
             SoldOutState = new SoldOutState(this);
@@ -52,10 +53,7 @@
             State.Dispense();
         }
 
-        public void SetState(State state)
-        {
-            State = state;
-        }
+     
 
         public void ReleaseBall()
         {

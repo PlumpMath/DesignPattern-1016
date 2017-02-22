@@ -19,19 +19,19 @@
             _gumballMachine.ReleaseBall();
             if(_gumballMachine.Count==0)
             {
-                _gumballMachine.SetState(_gumballMachine.SoldOutState);
+                _gumballMachine.State=_gumballMachine.SoldOutState;
             }
             else
             {
                 _gumballMachine.ReleaseBall();
                 if(_gumballMachine.Count>0)
                 {
-                    _gumballMachine.SetState(_gumballMachine.NoQuarterState);
+                    _gumballMachine.State=_gumballMachine.NoQuarterState;
                 }
                 else
                 {
                     Console.WriteLine("You are running out of gumballs");
-                    _gumballMachine.SetState(_gumballMachine.SoldOutState);
+                    _gumballMachine.State=_gumballMachine.SoldOutState;
                 }
             }
         
