@@ -21,7 +21,7 @@
         public void EjectQuarter()
         {
             Console.WriteLine("Quarter Returned");
-            _gumballMachine.SetState(_gumballMachine.GetNoQuarterState());
+            _gumballMachine.SetState(_gumballMachine.NoQuarterState);
         }
 
         public void InsertQuarter()
@@ -33,13 +33,13 @@
         {
             Console.WriteLine("You turned....");
             int winner = random.Next(3);
-            if ((winner == 0) && (_gumballMachine.GetCount() > 1))
+            if ((winner == 0) && (_gumballMachine.Count > 1))
             {
-                _gumballMachine.SetState(_gumballMachine.GetWinnerState());
+                _gumballMachine.SetState(_gumballMachine.WinnerState);
             }
             else
             {
-                _gumballMachine.SetState(_gumballMachine.GetSoldState());
+                _gumballMachine.SetState(_gumballMachine.SoldState);
             }
             }
     }

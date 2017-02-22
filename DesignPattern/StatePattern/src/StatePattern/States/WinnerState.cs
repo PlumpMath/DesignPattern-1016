@@ -17,21 +17,21 @@
         {
             Console.WriteLine("You are a winnner you get 2 gumballs ");
             _gumballMachine.ReleaseBall();
-            if(_gumballMachine.GetCount()==0)
+            if(_gumballMachine.Count==0)
             {
-                _gumballMachine.SetState(_gumballMachine.GetSoldOutState());
+                _gumballMachine.SetState(_gumballMachine.SoldOutState);
             }
             else
             {
                 _gumballMachine.ReleaseBall();
-                if(_gumballMachine.GetCount()>0)
+                if(_gumballMachine.Count>0)
                 {
-                    _gumballMachine.SetState(_gumballMachine.GetNoQuarterState());
+                    _gumballMachine.SetState(_gumballMachine.NoQuarterState);
                 }
                 else
                 {
                     Console.WriteLine("You are running out of gumballs");
-                    _gumballMachine.SetState(_gumballMachine.GetSoldOutState());
+                    _gumballMachine.SetState(_gumballMachine.SoldOutState);
                 }
             }
         

@@ -17,13 +17,13 @@
         public void Dispense()
         {
             _gumballMachine.ReleaseBall();
-            if(_gumballMachine.GetCount()>0)
+            if(_gumballMachine.Count>0)
             {
-                _gumballMachine.SetState(_gumballMachine.GetNoQuarterState());
+                _gumballMachine.SetState(_gumballMachine.NoQuarterState);
             }
             else
             {
-                _gumballMachine.SetState(_gumballMachine.GetSoldState());
+                _gumballMachine.SetState(_gumballMachine.SoldState);
             }
           
         }

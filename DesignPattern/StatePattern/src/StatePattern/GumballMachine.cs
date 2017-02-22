@@ -9,15 +9,17 @@
     public class GumballMachine
     {
 
-        private State NoQuarterState { get; set; }
-        private State HasQuarterState { get; set; }
-        private State SoldOutState { get; set; }
-        private State SoldState { get; set; }
-        private State WinnerState { get; set; }
+        public State NoQuarterState { get; set; }
+        public State HasQuarterState { get; set; }
+        public State SoldOutState { get; set; }
+        public State SoldState { get; set; }
+        public State WinnerState { get; set; }
 
-        private State State { get; set; }
+        public State State { get; set; }
 
-        private int Count { get; set; } 
+        public int Count { get; set; }
+        
+        public String Location { get; set; }
 
         public GumballMachine(int count)
         {
@@ -64,37 +66,7 @@
             }
         }
 
-        public int GetCount()
-        {
-            return Count;
-        }
-
-        public State GetNoQuarterState()
-        {
-            return NoQuarterState;
-        }
-
-        public State GetHasQuarterState()
-        {
-            return HasQuarterState;
-        }
-        public State GetSoldOutState()
-        {
-            return SoldOutState; 
-        }
-        public State GetSoldState()
-        {
-            return SoldState;
-        }
-
-        public State GetWinnerState()
-        {
-            return WinnerState;
-        }
-        public State GetState()
-        {
-            return State;
-        }
+     
 
     }
 }

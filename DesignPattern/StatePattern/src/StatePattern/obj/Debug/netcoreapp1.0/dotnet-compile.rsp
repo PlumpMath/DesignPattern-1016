@@ -1,5 +1,5 @@
---temp-output:C:\Users\609662906\Desktop\projects\StatePattern\src\StatePattern\obj\Debug\netcoreapp1.0\
---out:C:\Users\609662906\Desktop\projects\StatePattern\src\StatePattern\bin\Debug\netcoreapp1.0\StatePattern.dll
+--temp-output:C:\Users\609662906\Desktop\project repo\Design Patterns\DesignPattern\DesignPattern\StatePattern\src\StatePattern\obj\Debug\netcoreapp1.0\
+--out:C:\Users\609662906\Desktop\project repo\Design Patterns\DesignPattern\DesignPattern\StatePattern\src\StatePattern\bin\Debug\netcoreapp1.0\StatePattern.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -86,12 +86,12 @@
 --reference:C:\Users\609662906\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\609662906\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\609662906\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
-C:\Users\609662906\Desktop\projects\StatePattern\src\StatePattern\GumballMachine.cs
-C:\Users\609662906\Desktop\projects\StatePattern\src\StatePattern\Program.cs
-C:\Users\609662906\Desktop\projects\StatePattern\src\StatePattern\Interface\State.cs
-C:\Users\609662906\Desktop\projects\StatePattern\src\StatePattern\Properties\AssemblyInfo.cs
-C:\Users\609662906\Desktop\projects\StatePattern\src\StatePattern\States\HasQuarterState.cs
-C:\Users\609662906\Desktop\projects\StatePattern\src\StatePattern\States\NoQuarterState.cs
-C:\Users\609662906\Desktop\projects\StatePattern\src\StatePattern\States\SoldOutState.cs
-C:\Users\609662906\Desktop\projects\StatePattern\src\StatePattern\States\SoldState.cs
-C:\Users\609662906\Desktop\projects\StatePattern\src\StatePattern\States\WinnerState.cs
+C:\Users\609662906\Desktop\project repo\Design Patterns\DesignPattern\DesignPattern\StatePattern\src\StatePattern\GumballMachine.cs
+C:\Users\609662906\Desktop\project repo\Design Patterns\DesignPattern\DesignPattern\StatePattern\src\StatePattern\Program.cs
+C:\Users\609662906\Desktop\project repo\Design Patterns\DesignPattern\DesignPattern\StatePattern\src\StatePattern\Interface\State.cs
+C:\Users\609662906\Desktop\project repo\Design Patterns\DesignPattern\DesignPattern\StatePattern\src\StatePattern\Properties\AssemblyInfo.cs
+C:\Users\609662906\Desktop\project repo\Design Patterns\DesignPattern\DesignPattern\StatePattern\src\StatePattern\States\HasQuarterState.cs
+C:\Users\609662906\Desktop\project repo\Design Patterns\DesignPattern\DesignPattern\StatePattern\src\StatePattern\States\NoQuarterState.cs
+C:\Users\609662906\Desktop\project repo\Design Patterns\DesignPattern\DesignPattern\StatePattern\src\StatePattern\States\SoldOutState.cs
+C:\Users\609662906\Desktop\project repo\Design Patterns\DesignPattern\DesignPattern\StatePattern\src\StatePattern\States\SoldState.cs
+C:\Users\609662906\Desktop\project repo\Design Patterns\DesignPattern\DesignPattern\StatePattern\src\StatePattern\States\WinnerState.cs
